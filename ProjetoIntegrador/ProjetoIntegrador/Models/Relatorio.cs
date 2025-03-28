@@ -7,13 +7,13 @@ namespace ProjetoIntegrador.Models
     public class Relatorio
     {
         [Key]
-        public int IdRelatorio { get; set; } // Chave primária
+        public string Id { get; set; } // Chave primária
 
         [ForeignKey("Medico")]
-        public int IdMedico { get; set; }    // Relacionamento com Médico
+        public string IdMedico { get; set; }    // Relacionamento com Médico
 
         [ForeignKey("Paciente")]
-        public int IdPaciente { get; set; }  // Relacionamento com Paciente
+        public string IdPaciente { get; set; }  // Relacionamento com Paciente
 
         public DateTime DataGeracao { get; set; }
         public string Conteudo { get; set; }

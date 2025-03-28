@@ -23,13 +23,14 @@ namespace ProjetoIntegrador.Models
         public string CPF { get; set; }
 
         [Required(ErrorMessage = "Telefone é obrigatório")]
+        [Phone(ErrorMessage = "Telefone inválido")]
         public string Telefone { get; set; }
 
         [Required(ErrorMessage = "Endereço é obrigatório")]
         public string Endereco { get; set; }
 
         [Required(ErrorMessage = "Selecione o perfil")]
-        public int IdPerfil { get; set; } // 1: Paciente, 2: Médico, etc.
+        public string IdPerfil { get; set; } // 1: Paciente, 2: Médico, etc.
 
         // Campos específicos para médicos
         public string? Especialidade { get; set; }

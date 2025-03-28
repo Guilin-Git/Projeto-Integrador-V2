@@ -1,0 +1,115 @@
+﻿@page "/register"
+@using ProjetoIntegrador.Data
+@using ProjetoIntegrador.Models
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.EntityFrameworkCore
+
+@inject UserManager<Usuario> UserManager
+@inject SignInManager<Usuario> SignInManager
+@inject NavigationManager Navigation
+@inject ApplicationDbContext Context
+@inject EmailSender EmailSender
+@inject IJSRuntime JS
+
+<h3>Registro de Usuário</h3>
+
+<EditForm Model="@model" OnValidSubmit="@RegistrarUsuario">
+    <InputText @bind-Value="model.Nome" placeholder="Nome" /><br />
+    <InputText @bind-Value="model.Email" placeholder="Email" /><br />
+    <InputText @bind-Value="model.CPF" placeholder="CPF" /><br />
+
+    <!-- Campo de telefone com máscara -->
+    <input @bind="model.Telefone"
+           placeholder="Telefone"
+           @ref="telefoneInput"
+           class="form-control" /><br />
+
+    <InputText @bind-Value="model.Endereco" placeholder="Endereço" /><br />
+    <InputText @bind-Value="model.Senha" placeholder="Senha" type="password" /><br />
+    <InputText @bind-Value="model.ConfirmarSenha" placeholder="Confirmar Senha" type="password" /><br />
+
+    <select @bind="model.IdPerfil">
+        <option value="">Selecione o Perfil</option>
+        @foreach (var perfil in Perfis)
+        {
+            <option value="@perfil.Id">@perfil.Tipo</option>
+        }
+    </select><br />
+
+    @if (Perfis.FirstOrDefault(p => p.Id == model.IdPerfil)?.Tipo == "Medico")
+    {
+        <InputText @bind-Value="model.CRM" placeholder="CRM" />
+
+        <br />
+        <InputText @bind-Value="model.Especialidade" placeholder="Especialidade" />
+
+        <br />
+    }
+
+    <button type="submit">Registrar</button>
+</EditForm>
+
+@code {
+    private RegisterModel model = new();
+    private List<Perfil> Perfis = new();
+    private ElementReference telefoneInput;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Perfis = await Context.Perfis.ToListAsync();
+    }
+
+    protected override Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            return JS.InvokeVoidAsync("aplicarMascaraTelefone", telefoneInput).AsTask();
+        }
+
+        return Task.CompletedTask;
+    }
+
+    private async Task RegistrarUsuario()
+    {
+        var perfilEscolhido = Perfis.FirstOrDefault(p => p.Id == model.IdPerfil);
+
+        if (perfilEscolhido is null)
+        {
+            Console.WriteLine("Perfil inválido selecionado.");
+            return;
+        }
+
+        var usuario = new Usuario
+            {
+                UserName = model.Email,
+                Email = model.Email,
+                Nome = model.Nome,
+                CPF = model.CPF,
+                PhoneNumber = model.Telefone,
+                Endereco = model.Endereco,
+                IdPerfil = perfilEscolhido.Id,
+                CRM = model.CRM,
+                Especialidade = model.Especialidade
+            };
+
+        var resultado = await UserManager.CreateAsync(usuario, model.Senha);
+
+        if (resultado.Succeeded)
+        {
+            await UserManager.AddToRoleAsync(usuario, perfilEscolhido.Tipo);
+
+            var token = await UserManager.GenerateEmailConfirmationTokenAsync(usuario);
+            var confirmationLink = Navigation.BaseUri + $"confirm-email?userId={usuario.Id}&token={Uri.EscapeDataString(token)}";
+
+            await EmailSender.SendEmailAsync(usuario.Email, "Confirme seu email",
+                $"Por favor confirme seu email clicando aqui: <a href='{confirmationLink}'>Confirmar Email</a>");
+
+            Navigation.NavigateTo("/email-confirmacao-enviado");
+        }
+        else
+        {
+            foreach (var erro in resultado.Errors)
+                Console.WriteLine(erro.Description);
+        }
+    }
+}

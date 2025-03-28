@@ -7,13 +7,13 @@ namespace ProjetoIntegrador.Models
     public class Agendamento
     {
         [Key]
-        public int Id { get; set; } // Chave primária
+        public string Id { get; set; } // Chave primária
 
         [ForeignKey("Paciente")]
-        public int IdPaciente { get; set; }    // Relacionamento com o Paciente
+        public string IdPaciente { get; set; }    // Relacionamento com o Paciente
 
         [ForeignKey("Medico")]
-        public int IdMedico { get; set; }      // Relacionamento com o Médico
+        public string IdMedico { get; set; }      // Relacionamento com o Médico
 
         public DateTime DataHora { get; set; }  // Data e hora do agendamento da consulta
         public string Status { get; set; }     // Ex: Agendado, Confirmado, Cancelado

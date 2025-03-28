@@ -7,10 +7,10 @@ namespace ProjetoIntegrador.Models
     public class Exame
     {
         [Key]
-        public int IdExame { get; set; } // Chave primária
+        public string Id { get; set; } // Chave primária
 
         [ForeignKey("Consulta")]
-        public int IdConsulta { get; set; } // Relacionamento com a consulta
+        public string IdConsulta { get; set; } // Relacionamento com a consulta
 
         public string TipoExame { get; set; } // Tipo do exame (Solicitado ou Levado)
 

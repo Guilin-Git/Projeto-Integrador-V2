@@ -7,21 +7,28 @@ namespace ProjetoIntegrador.Models
     public class Consulta
     {
         [Key]
-        public int Id { get; set; } // Chave primária única
+        public string Id { get; set; } // Chave primária única
 
         [ForeignKey("Agendamento")]
-        public int IdAgendamento { get; set; } // Relacionamento com o Agendamento
+        public string IdAgendamento { get; set; }
 
-        public DateTime DataConsulta { get; set; } // Data e Hora da consulta real
-        public string StatusConsulta { get; set; } // Status da consulta (Realizada, Cancelada, etc.)
-        public string Diagnostico { get; set; }   // Diagnóstico (após a consulta)
-        public string Prescricao { get; set; }    // Prescrição médica (após a consulta)
-        public DateTime DataCriacao { get; set; } // Data em que o agendamento foi criado
-        public string Observacoes { get; set; }   // Observações adicionais sobre a consulta
+        // Propriedades FK explícitas (Id do Paciente e Médico)
+        [ForeignKey("Paciente")]
+        public string IdPaciente { get; set; }
 
-        // Propriedades de navegação (relacionamento com Usuário)
-        public Usuario Paciente { get; set; } // Relacionamento com o paciente
-        public Usuario Medico { get; set; }   // Relacionamento com o médico
-        public Agendamento Agendamento { get; set; } // Relacionamento com o agendamento
+        [ForeignKey("Medico")]
+        public string IdMedico { get; set; }
+
+        public DateTime DataConsulta { get; set; }
+        public string StatusConsulta { get; set; }
+        public string Diagnostico { get; set; }
+        public string Prescricao { get; set; }
+        public DateTime DataCriacao { get; set; }
+        public string Observacoes { get; set; }
+
+        // Propriedades de navegação
+        public Usuario Paciente { get; set; }
+        public Usuario Medico { get; set; }
+        public Agendamento Agendamento { get; set; }
     }
 }
