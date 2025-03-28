@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\ProjetoIntegrador\\ProjetoIntegrador\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjetoIntegrador.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProjetoIntegrador.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProjetoIntegrador.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProjetoIntegrador.props",
+      "PackagePath": "build\\ProjetoIntegrador.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProjetoIntegrador.props",
+      "PackagePath": "buildMultiTargeting\\ProjetoIntegrador.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProjetoIntegrador.props",
+      "PackagePath": "buildTransitive\\ProjetoIntegrador.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
