@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FvmQWOF5CJQ=",
+  "dgSpecHash": "x0j7WeyRdaY=",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj",
+  "projectFilePath": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guibr\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\guibr\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

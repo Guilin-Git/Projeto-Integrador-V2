@@ -1,61 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\",
+  "WorkspaceRootPath": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\projetos\\projetointegrador v2\\projeto-integrador-v2\\projetointegrador\\projetointegrador\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\components\\pages\\testeprotegido.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\pages\\testeprotegido.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\projetos\\projetointegrador v2\\projeto-integrador-v2\\projetointegrador\\projetointegrador\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\projetos\\projetointegrador v2\\projeto-integrador-v2\\projetointegrador\\projetointegrador\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\projetos\\projetointegrador v2\\projeto-integrador-v2\\projetointegrador\\projetointegrador\\wwwroot\\js\\mask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\wwwroot\\js\\mask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\projetos\\projetointegrador v2\\projeto-integrador-v2\\projetointegrador\\projetointegrador\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\projetos\\projetointegrador v2\\projeto-integrador-v2\\projetointegrador\\projetointegrador\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\projetos\\projetointegrador v2\\projeto-integrador-v2\\projetointegrador\\projetointegrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\projetos\\projetointegrador v2\\projeto-integrador-v2\\projetointegrador\\projetointegrador\\components\\pages\\confirmemail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\pages\\confirmemail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\components\\pages\\acessonegado.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\pages\\acessonegado.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\projetos\\projetointegrador v2\\projeto-integrador-v2\\projetointegrador\\projetointegrador\\components\\pages\\erroconfirmacao.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\pages\\erroconfirmacao.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\projetos\\projetointegrador v2\\projeto-integrador-v2\\projetointegrador\\projetointegrador\\components\\pages\\emailconfirmado.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\pages\\emailconfirmado.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\projetos\\projetointegrador v2\\projeto-integrador-v2\\projetointegrador\\projetointegrador\\components\\pages\\emailconfirmacaoenviado.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\pages\\emailconfirmacaoenviado.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\projetos\\projetointegrador v2\\projeto-integrador-v2\\projetointegrador\\projetointegrador\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\projetos\\projetointegrador v2\\projeto-integrador-v2\\projetointegrador\\projetointegrador\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\projetos\\projetointegrador v2\\projeto-integrador-v2\\projetointegrador\\projetointegrador\\models\\agendamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\components\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\projetointegrador.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\projetointegrador.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\models\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\models\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\wwwroot\\js\\mask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\wwwroot\\js\\mask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\wwwroot\\js\\toast.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\wwwroot\\js\\toast.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\wwwroot\\js\\toast.js||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\wwwroot\\js\\toast.js||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\models\\agendamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\models\\agendamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,15 +110,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Bookmark",
@@ -86,185 +126,316 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\App.razor",
-              "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\App.razor",
-              "ToolTip": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\App.razor",
-              "RelativeToolTip": "ProjetoIntegrador\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T13:22:24.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "ProjetoIntegrador\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T13:21:00.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "mask.js",
-              "DocumentMoniker": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\js\\mask.js",
-              "RelativeDocumentMoniker": "ProjetoIntegrador\\wwwroot\\js\\mask.js",
-              "ToolTip": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\js\\mask.js",
-              "RelativeToolTip": "ProjetoIntegrador\\wwwroot\\js\\mask.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-28T13:20:07.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterModel.cs",
-              "DocumentMoniker": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\RegisterModel.cs",
-              "RelativeDocumentMoniker": "ProjetoIntegrador\\Models\\RegisterModel.cs",
-              "ToolTip": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\RegisterModel.cs",
-              "RelativeToolTip": "ProjetoIntegrador\\Models\\RegisterModel.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA/wBwAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T13:06:59.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ConfirmEmail.razor",
-              "DocumentMoniker": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\ConfirmEmail.razor",
-              "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\Pages\\ConfirmEmail.razor",
-              "ToolTip": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\ConfirmEmail.razor",
-              "RelativeToolTip": "ProjetoIntegrador\\Components\\Pages\\ConfirmEmail.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T12:30:21.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmailConfirmacaoEnviado.razor",
-              "DocumentMoniker": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\EmailConfirmacaoEnviado.razor",
-              "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\Pages\\EmailConfirmacaoEnviado.razor",
-              "ToolTip": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\EmailConfirmacaoEnviado.razor",
-              "RelativeToolTip": "ProjetoIntegrador\\Components\\Pages\\EmailConfirmacaoEnviado.razor",
+              "Title": "AcessoNegado.razor",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\AcessoNegado.razor",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\Pages\\AcessoNegado.razor",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\AcessoNegado.razor",
+              "RelativeToolTip": "ProjetoIntegrador\\Components\\Pages\\AcessoNegado.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T12:29:46.042Z",
+              "WhenOpened": "2025-03-30T21:52:08.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Register.razor",
-              "DocumentMoniker": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\Register.razor",
-              "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\Pages\\Register.razor",
-              "ToolTip": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\Register.razor",
-              "RelativeToolTip": "ProjetoIntegrador\\Components\\Pages\\Register.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\App.razor",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\App.razor",
+              "RelativeToolTip": "ProjetoIntegrador\\Components\\App.razor",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwC4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T12:02:44.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T13:22:24.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmailConfirmado.razor",
-              "DocumentMoniker": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\EmailConfirmado.razor",
-              "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\Pages\\EmailConfirmado.razor",
-              "ToolTip": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\EmailConfirmado.razor",
-              "RelativeToolTip": "ProjetoIntegrador\\Components\\Pages\\EmailConfirmado.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T12:31:08.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "ProjetoIntegrador\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\Usuario.cs",
-              "RelativeToolTip": "ProjetoIntegrador\\Models\\Usuario.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T22:23:07.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmailSender.cs",
-              "DocumentMoniker": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Services\\EmailSender.cs",
-              "RelativeDocumentMoniker": "ProjetoIntegrador\\Services\\EmailSender.cs",
-              "ToolTip": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Services\\EmailSender.cs",
-              "RelativeToolTip": "ProjetoIntegrador\\Services\\EmailSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:26:27.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Program.cs",
               "RelativeDocumentMoniker": "ProjetoIntegrador\\Program.cs",
-              "ToolTip": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Program.cs",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Program.cs",
               "RelativeToolTip": "ProjetoIntegrador\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T22:16:30.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ErroConfirmacao.razor",
-              "DocumentMoniker": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\ErroConfirmacao.razor",
-              "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\Pages\\ErroConfirmacao.razor",
-              "ToolTip": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\ErroConfirmacao.razor",
-              "RelativeToolTip": "ProjetoIntegrador\\Components\\Pages\\ErroConfirmacao.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\appsettings.json",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\appsettings.json",
+              "RelativeToolTip": "ProjetoIntegrador\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-29T00:17:04.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\Register.razor",
+              "RelativeToolTip": "ProjetoIntegrador\\Components\\Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T12:31:30.092Z",
+              "WhenOpened": "2025-03-28T12:02:44.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "ProjetoIntegrador\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-30T18:28:31.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "register.css",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\css\\register.css",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\wwwroot\\css\\register.css",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\css\\register.css",
+              "RelativeToolTip": "ProjetoIntegrador\\wwwroot\\css\\register.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-29T01:50:59.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Layout\\NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "ProjetoIntegrador\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAmwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-28T12:06:42.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Agendamento.cs",
-              "DocumentMoniker": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\Agendamento.cs",
-              "RelativeDocumentMoniker": "ProjetoIntegrador\\Models\\Agendamento.cs",
-              "ToolTip": "C:\\Projetos\\ProjetoIntegrador V2\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\Agendamento.cs",
-              "RelativeToolTip": "ProjetoIntegrador\\Models\\Agendamento.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T22:23:39.616Z",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "ProjetoIntegrador\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T13:21:00.72Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\Usuario.cs",
+              "RelativeToolTip": "ProjetoIntegrador\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T22:23:07.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TesteProtegido.razor",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\TesteProtegido.razor",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\Pages\\TesteProtegido.razor",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\TesteProtegido.razor",
+              "RelativeToolTip": "ProjetoIntegrador\\Components\\Pages\\TesteProtegido.razor",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T02:33:51.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ProjetoIntegrador\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowCYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T00:47:05.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Logout.razor",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Logout.razor",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\Logout.razor",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Logout.razor",
+              "RelativeToolTip": "ProjetoIntegrador\\Components\\Logout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T18:25:18.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "ProjetoIntegrador\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T02:32:49.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\app.css",
+              "RelativeToolTip": "ProjetoIntegrador\\wwwroot\\app.css",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAcwJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-30T20:03:12.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProjetoIntegrador.csproj",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\ProjetoIntegrador.csproj",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj",
+              "RelativeToolTip": "ProjetoIntegrador\\ProjetoIntegrador.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-29T02:54:47.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "toast.js",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\js\\toast.js",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\wwwroot\\js\\toast.js",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\js\\toast.js",
+              "RelativeToolTip": "ProjetoIntegrador\\wwwroot\\js\\toast.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-29T01:13:11.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "toast.js",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\js\\toast.js",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\wwwroot\\js\\toast.js",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\js\\toast.js",
+              "RelativeToolTip": "ProjetoIntegrador\\wwwroot\\js\\toast.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-29T01:16:19.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Perfil.cs",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\Perfil.cs",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Models\\Perfil.cs",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\Perfil.cs",
+              "RelativeToolTip": "ProjetoIntegrador\\Models\\Perfil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T02:08:33.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\App.razor",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\App.razor",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\App.razor",
+              "RelativeToolTip": "ProjetoIntegrador\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T02:23:07.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "mask.js",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\js\\mask.js",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\wwwroot\\js\\mask.js",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\js\\mask.js",
+              "RelativeToolTip": "ProjetoIntegrador\\wwwroot\\js\\mask.js",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-28T13:20:07.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProjetoIntegrador\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T02:33:07.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "ProjetoIntegrador\\Models\\RegisterModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAABQwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T13:06:59.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\LoginModel.cs",
+              "RelativeToolTip": "ProjetoIntegrador\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T00:38:30.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Agendamento.cs",
+              "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\Agendamento.cs",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Models\\Agendamento.cs",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Models\\Agendamento.cs",
+              "RelativeToolTip": "ProjetoIntegrador\\Models\\Agendamento.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAzwAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T22:23:39.616Z"
             }
           ]
         }

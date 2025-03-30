@@ -1,33 +1,37 @@
-using Microsoft.AspNetCore.Components.Authorization;
+ï»¿using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.AspNetCore.Components.Server;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ProjetoIntegrador.Components;
+using ProjetoIntegrador.Components.Pages;
 using ProjetoIntegrador.Data;
 using ProjetoIntegrador.Models;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
+// Blazor Server + erros detalhados para debug
 builder.Services.AddServerSideBlazor()
     .AddCircuitOptions(options => { options.DetailedErrors = true; });
 
-builder.Services.AddTransient<EmailSender>();
+builder.Services.AddControllersWithViews();
 
-// Configuração do banco de dados
+// Banco de dados
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection") +
                          ";Encrypt=True;TrustServerCertificate=True;"));
 
-// Configuração do Identity
+// Identity com configuraÃ§Ã£o de senha
 builder.Services.AddIdentity<Usuario, IdentityRole>(options =>
 {
-    options.SignIn.RequireConfirmedEmail = true;
+    options.SignIn.RequireConfirmedEmail = false;
     options.Password.RequireDigit = true;
     options.Password.RequiredLength = 6;
 })
 .AddEntityFrameworkStores<ApplicationDbContext>()
 .AddDefaultTokenProviders();
 
-// Configuração da autorização com políticas de Roles
+// PolÃ­ticas por roles
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("Administrador", policy => policy.RequireRole("Administrador"));
@@ -36,13 +40,25 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("Paciente", policy => policy.RequireRole("Paciente"));
 });
 
-// Adiciona suporte ao Razor Components
+// Razor Components com renderizaÃ§Ã£o interativa (Blazor Server)
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+// AutenticaÃ§Ã£o e AutorizaÃ§Ã£o
+builder.Services.AddAuthentication();
+builder.Services.AddAuthorization();
+builder.Services.AddCascadingAuthenticationState();
+builder.Services.AddHttpContextAccessor();
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.AccessDeniedPath = "/acesso-negado"; // redireciona automaticamente
+});
+
+
 var app = builder.Build();
 
-// Configuração do pipeline HTTP
+// Pipeline HTTP
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
@@ -53,15 +69,15 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAntiforgery();
 
-// Adiciona autenticação e autorização ao pipeline HTTP
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Configuração das rotas e Razor Components
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
-// Cria Roles no início da aplicação
+app.MapControllers(); // <- necessÃ¡rio para o AuthController
+
+// CriaÃ§Ã£o das Roles na inicializaÃ§Ã£o
 using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();

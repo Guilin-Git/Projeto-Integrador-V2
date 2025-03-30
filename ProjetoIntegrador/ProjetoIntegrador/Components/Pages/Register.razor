@@ -1,81 +1,78 @@
 ﻿@page "/register"
-@using ProjetoIntegrador.Data
 @using ProjetoIntegrador.Models
+@using ProjetoIntegrador.Data
 @using Microsoft.AspNetCore.Identity
 @using Microsoft.EntityFrameworkCore
 
+@using ProjetoIntegrador.Components.Layout
+@rendermode InteractiveServer
+
 @inject UserManager<Usuario> UserManager
-@inject SignInManager<Usuario> SignInManager
 @inject NavigationManager Navigation
 @inject ApplicationDbContext Context
-@inject EmailSender EmailSender
 @inject IJSRuntime JS
 
-<h3>Registro de Usuário</h3>
+<HeadContent>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+    <link href="css/register.css" rel="stylesheet" />
+    <script src="js/mask.js"></script>
+</HeadContent>
 
-<EditForm Model="@model" OnValidSubmit="@RegistrarUsuario">
-    <InputText @bind-Value="model.Nome" placeholder="Nome" /><br />
-    <InputText @bind-Value="model.Email" placeholder="Email" /><br />
-    <InputText @bind-Value="model.CPF" placeholder="CPF" /><br />
+<div class="register-background">
+    <div class="register-box">
+        <h2>CREATE AN ACCOUNT</h2>
 
-    <!-- Campo de telefone com máscara -->
-    <input @bind="model.Telefone"
-           placeholder="Telefone"
-           @ref="telefoneInput"
-           class="form-control" /><br />
+        <EditForm Model="@model" OnValidSubmit="@RegistrarUsuario" class="register-form">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
 
-    <InputText @bind-Value="model.Endereco" placeholder="Endereço" /><br />
-    <InputText @bind-Value="model.Senha" placeholder="Senha" type="password" /><br />
-    <InputText @bind-Value="model.ConfirmarSenha" placeholder="Confirmar Senha" type="password" /><br />
+            <InputText @bind-Value="model.Nome" placeholder="Your Name" class="form-input" />
+            <InputText @bind-Value="model.Email" placeholder="Your Email" class="form-input" />
+            <InputText @bind-Value="model.CPF" placeholder="CPF" class="form-input" oninput="aplicarMascaraCPF(this)" />
+            <InputText @bind-Value="model.Telefone" placeholder="Phone" class="form-input" oninput="aplicarMascaraTelefone(this)" />
+            <InputText @bind-Value="model.Endereco" placeholder="Address" class="form-input" />
+            <InputText @bind-Value="model.Senha" placeholder="Password" type="password" class="form-input" />
+            <InputText @bind-Value="model.ConfirmarSenha" placeholder="Repeat your password" type="password" class="form-input" />
 
-    <select @bind="model.IdPerfil">
-        <option value="">Selecione o Perfil</option>
-        @foreach (var perfil in Perfis)
-        {
-            <option value="@perfil.Id">@perfil.Tipo</option>
-        }
-    </select><br />
+            <select @bind="model.IdPerfil" class="form-input">
+                <option value="">Select Profile</option>
+                @foreach (var perfil in Perfis)
+                {
+                    <option value="@perfil.Id.ToString()">@perfil.Tipo</option>
+                }
+            </select>
 
-    @if (Perfis.FirstOrDefault(p => p.Id == model.IdPerfil)?.Tipo == "Medico")
-    {
-        <InputText @bind-Value="model.CRM" placeholder="CRM" />
+            @if (model.IdPerfil == "3")
+            {
+                <InputText @bind-Value="model.CRM" placeholder="CRM" class="form-input" />
+                <InputText @bind-Value="model.Especialidade" placeholder="Specialty" class="form-input" />
+            }
 
-        <br />
-        <InputText @bind-Value="model.Especialidade" placeholder="Especialidade" />
+            <button type="submit" class="register-btn">REGISTER</button>
 
-        <br />
-    }
-
-    <button type="submit">Registrar</button>
-</EditForm>
+            <div class="login-link">
+                Have already an account? <a href="/login">Login here</a>
+            </div>
+        </EditForm>
+    </div>
+</div>
 
 @code {
     private RegisterModel model = new();
     private List<Perfil> Perfis = new();
-    private ElementReference telefoneInput;
 
     protected override async Task OnInitializedAsync()
     {
         Perfis = await Context.Perfis.ToListAsync();
     }
 
-    protected override Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
-        {
-            return JS.InvokeVoidAsync("aplicarMascaraTelefone", telefoneInput).AsTask();
-        }
-
-        return Task.CompletedTask;
-    }
-
     private async Task RegistrarUsuario()
     {
-        var perfilEscolhido = Perfis.FirstOrDefault(p => p.Id == model.IdPerfil);
+        var perfil = Perfis.FirstOrDefault(p => p.Id == model.IdPerfil);
 
-        if (perfilEscolhido is null)
+        if (perfil is null)
         {
-            Console.WriteLine("Perfil inválido selecionado.");
+            await JS.InvokeVoidAsync("toastr.error", "Selecione um perfil válido.");
             return;
         }
 
@@ -87,7 +84,7 @@
                 CPF = model.CPF,
                 PhoneNumber = model.Telefone,
                 Endereco = model.Endereco,
-                IdPerfil = perfilEscolhido.Id,
+                IdPerfil = perfil.Id,
                 CRM = model.CRM,
                 Especialidade = model.Especialidade
             };
@@ -96,20 +93,19 @@
 
         if (resultado.Succeeded)
         {
-            await UserManager.AddToRoleAsync(usuario, perfilEscolhido.Tipo);
+            await UserManager.AddToRoleAsync(usuario, perfil.Tipo);
+            await JS.InvokeVoidAsync("toastr.success", "Conta criada com sucesso!");
+            model = new();
 
-            var token = await UserManager.GenerateEmailConfirmationTokenAsync(usuario);
-            var confirmationLink = Navigation.BaseUri + $"confirm-email?userId={usuario.Id}&token={Uri.EscapeDataString(token)}";
+            // Adicione no final do método HandleRegister:
 
-            await EmailSender.SendEmailAsync(usuario.Email, "Confirme seu email",
-                $"Por favor confirme seu email clicando aqui: <a href='{confirmationLink}'>Confirmar Email</a>");
+            Navigation.NavigateTo("/login?registered=true", true);
 
-            Navigation.NavigateTo("/email-confirmacao-enviado");
         }
         else
         {
-            foreach (var erro in resultado.Errors)
-                Console.WriteLine(erro.Description);
+            var erros = string.Join("<br/>", resultado.Errors.Select(e => e.Description));
+            await JS.InvokeVoidAsync("toastr.error", erros);
         }
     }
 }
