@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\img\\vitalic-icon.png",
+      "PackagePath": "staticwebassets\\img\\vitalic-icon.png"
+    },
+    {
       "Id": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\wwwroot\\js\\mask.js",
       "PackagePath": "staticwebassets\\js\\mask.js"
     },
