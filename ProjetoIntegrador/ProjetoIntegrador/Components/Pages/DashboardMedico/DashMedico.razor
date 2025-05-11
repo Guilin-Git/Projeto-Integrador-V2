@@ -1,0 +1,19 @@
+﻿@page "/dash-medico"
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthProvider
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@rendermode InteractiveServer
+@attribute [Authorize(Roles = "Medico")]
+
+<h3>Bem-vindo à página protegida!</h3>
+<p>Somente usuários autenticados com a role <strong>Médico</strong> podem ver isso.</p>
+
+<AuthorizeView Roles="Medico">
+    <Authorized>
+        <p style="color: green">Você está autenticado como Médico.</p>
+    </Authorized>
+    <NotAuthorized>
+        <p style="color: red">Você NÃO tem permissão para ver isso.</p>
+    </NotAuthorized>
+</AuthorizeView>

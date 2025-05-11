@@ -30,13 +30,13 @@ namespace ProjetoIntegrador.Controllers
             if (result.Succeeded)
             {
                 var claims = new List<Claim>
-                    {
-                        new Claim(ClaimTypes.NameIdentifier, user.Id),
-                        new Claim(ClaimTypes.Name, user.Nome),
-                        new Claim("Nome", user.Nome)
-                    };
+        {
+            new Claim(ClaimTypes.NameIdentifier, user.Id),
+            new Claim(ClaimTypes.Name, user.Nome),
+            new Claim("Nome", user.Nome)
+        };
 
-                // Recupera a role do usuário
+                // Recupera as roles
                 var roles = await _userManager.GetRolesAsync(user);
                 foreach (var role in roles)
                 {
@@ -48,13 +48,24 @@ namespace ProjetoIntegrador.Controllers
 
                 await HttpContext.SignInAsync(IdentityConstants.ApplicationScheme, principal);
 
-                return Redirect("/teste-protegido");
+                // Redirecionamento por role
+                if (roles.Contains("Medico"))
+                    return Redirect("/dash-medico");
+                else if (roles.Contains("Administrador"))
+                    return Redirect("/dash-admin"); // crie esse depois
+                else if (roles.Contains("Recepcionista"))
+                    return Redirect("/dash-recepcionista"); // crie esse depois
+                else if (roles.Contains("Paciente"))
+                    return Redirect("/dash-paciente"); // crie esse depois
+
+                // fallback
+                return Redirect("/login?error=sem-role");
             }
-
-
 
             return Redirect("/login?error=1");
         }
+
+
 
 
         [HttpPost("logout")]

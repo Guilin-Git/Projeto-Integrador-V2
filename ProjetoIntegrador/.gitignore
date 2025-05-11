@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+
+# ASP.NET Core secrets
+secrets.json
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+
+# Outros
+*.db
