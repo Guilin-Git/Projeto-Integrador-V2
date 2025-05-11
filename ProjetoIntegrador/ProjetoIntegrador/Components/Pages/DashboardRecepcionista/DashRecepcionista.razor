@@ -1,10 +1,11 @@
-﻿@page "/dash-medico"
+﻿@page "/dash-recepcionista"
 @inject NavigationManager Navigation
 @inject AuthenticationStateProvider AuthProvider
 @using Microsoft.AspNetCore.Authorization
 @using Microsoft.AspNetCore.Components.Authorization
 @rendermode InteractiveServer
-@attribute [Authorize(Roles = "Medico")]
+@attribute [Authorize(Roles = "Recepcionista")]
+@inject NavigationManager Navigation
 
 <style>
     .topbar {
@@ -128,13 +129,10 @@
 
     private List<DashItem> itensDashboard = new()
     {
-        new() { Titulo = "Ver agenda de Consultas", Icone = "📅" },
-        new() { Titulo = "Registro Diagnóstico", Icone = "🧾" },
-        new() { Titulo = "Prescrever Medicamento", Icone = "💊" },
-        new() { Titulo = "Solicitar Exames", Icone = "📁" },
-        new() { Titulo = "Responder Mensagens", Icone = "💬" },
-        new() { Titulo = "Gerar Relatórios Médicos", Icone = "📄" },
-        new() { Titulo = "Marcar Retorno", Icone = "📆" },
-        new() { Titulo = "Realizar Anamnese", Icone = "📘" }
+        new() { Titulo = "Agendar/Remarcar Consultas", Icone = "📅" },
+        new() { Titulo = "Gerenciar Exames", Icone = "📁" },
+        new() { Titulo = "Confirmar Presença", Icone = "✅" },
+        new() { Titulo = "Emitir Documentos", Icone = "📄" },
+        new() { Titulo = "Cadastrar Pessoas", Icone = "🧾" }
     };
 }
