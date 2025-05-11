@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\components\\pages\\dashboardmedico\\dashmedico.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\components\\pages\\dashboardmedico\\dashmedico.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FAAB2D6-CCE2-47CF-88CB-7083FDD74F95}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\guibr\\desktop\\projeto integrador v2\\projeto-integrador-v32\\projetointegrador\\projetointegrador\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -122,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -142,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DashMedico.razor",
               "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Components\\Pages\\DashboardMedico\\DashMedico.razor",
               "RelativeDocumentMoniker": "ProjetoIntegrador\\Components\\Pages\\DashboardMedico\\DashMedico.razor",
@@ -271,12 +271,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ProjetoIntegrador\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Controllers\\AuthController.cs*",
-              "RelativeToolTip": "ProjetoIntegrador\\Controllers\\AuthController.cs*",
+              "ToolTip": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ProjetoIntegrador\\Controllers\\AuthController.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAcwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T00:47:05.373Z",
