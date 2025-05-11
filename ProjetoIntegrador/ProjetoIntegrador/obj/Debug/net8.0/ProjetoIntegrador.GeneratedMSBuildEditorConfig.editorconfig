@@ -9,75 +9,79 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjetoIntegrador
 build_property.RootNamespace = ProjetoIntegrador
-build_property.ProjectDir = C:\Users\guibr\Desktop\Projeto Integrador V2\Projeto-Integrador-V32\ProjetoIntegrador\ProjetoIntegrador\
+build_property.ProjectDir = C:\Users\guibr\Desktop\Projeto Integrador\Projeto-Integrador-V2\ProjetoIntegrador\ProjetoIntegrador\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\guibr\Desktop\Projeto Integrador V2\Projeto-Integrador-V32\ProjetoIntegrador\ProjetoIntegrador
+build_property.MSBuildProjectDirectory = C:\Users\guibr\Desktop\Projeto Integrador\Projeto-Integrador-V2\ProjetoIntegrador\ProjetoIntegrador
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/App.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/App.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Logout.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/Logout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/AcessoNegado.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/AcessoNegado.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2Vzc29OZWdhZG8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/Counter.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/DashboardMedico/DashMedico.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/DashboardMedico/DashMedico.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXNoYm9hcmRNZWRpY29cRGFzaE1lZGljby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/DashboardRecepcionista/DashRecepcionista.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/DashboardPaciente/DashPaciente.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXNoYm9hcmRQYWNpZW50ZVxEYXNoUGFjaWVudGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/DashboardRecepcionista/DashRecepcionista.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXNoYm9hcmRSZWNlcGNpb25pc3RhXERhc2hSZWNlcGNpb25pc3RhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/Error.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/Home.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/Login.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/Register.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZWdpc3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/TesteProtegido.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/TesteProtegido.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZXN0ZVByb3RlZ2lkby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Routes.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/_Imports.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Layout/MainLayout.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-aujhn8rual
 
-[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Layout/NavMenu.razor]
+[C:/Users/guibr/Desktop/Projeto Integrador/Projeto-Integrador-V2/ProjetoIntegrador/ProjetoIntegrador/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-1ym4h9jj9k
