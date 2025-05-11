@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj": {}
+    "C:\\Users\\guibr\\Desktop\\Projeto Integrador\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj": {
+    "C:\\Users\\guibr\\Desktop\\Projeto Integrador\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj",
+        "projectUniqueName": "C:\\Users\\guibr\\Desktop\\Projeto Integrador\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj",
         "projectName": "ProjetoIntegrador",
-        "projectPath": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj",
+        "projectPath": "C:\\Users\\guibr\\Desktop\\Projeto Integrador\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj",
         "packagesPath": "C:\\Users\\guibr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guibr\\Desktop\\Projeto Integrador V2\\Projeto-Integrador-V32\\ProjetoIntegrador\\ProjetoIntegrador\\obj\\",
+        "outputPath": "C:\\Users\\guibr\\Desktop\\Projeto Integrador\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
