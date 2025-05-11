@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXNoYm9hcmRNZWRpY29cRGFzaE1lZGljby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/DashboardRecepcionista/DashRecepcionista.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXNoYm9hcmRSZWNlcGNpb25pc3RhXERhc2hSZWNlcGNpb25pc3RhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/guibr/Desktop/Projeto Integrador V2/Projeto-Integrador-V32/ProjetoIntegrador/ProjetoIntegrador/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
