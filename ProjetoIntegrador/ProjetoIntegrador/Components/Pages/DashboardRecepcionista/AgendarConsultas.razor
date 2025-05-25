@@ -1,14 +1,17 @@
 ﻿@page "/dash-recepcionista/agendarConsultas"
 @attribute [Authorize(Roles = "Recepcionista")]
+
 @inject ApplicationDbContext DbContext
 @inject NavigationManager Navigation
 @inject AuthenticationStateProvider AuthProvider
+@rendermode InteractiveServer
+
+
 @using Microsoft.EntityFrameworkCore
-@using ProjetoIntegrador.Models
-@using ProjetoIntegrador.Data
 @using Microsoft.AspNetCore.Components.Authorization
 @using Microsoft.AspNetCore.Authorization
-
+@using ProjetoIntegrador.Models
+@using ProjetoIntegrador.Data
 
 <h3 class="mb-4">📅 Agendar ou Remarcar Consulta</h3>
 
@@ -40,12 +43,13 @@
 
     <div class="mb-3">
         <label class="form-label">Data e Hora</label>
-        <InputDate class="form-control" @bind-Value="agendamento.DataHora" />
+        <input type="datetime-local" class="form-control" @bind="dataHoraSelecionada" />
     </div>
 
     <div class="mb-3">
         <label class="form-label">Status</label>
         <InputSelect class="form-select" @bind-Value="agendamento.Status">
+            <option value="">Selecione o status</option>
             <option value="Agendado">Agendado</option>
             <option value="Confirmado">Confirmado</option>
             <option value="Cancelado">Cancelado</option>
@@ -64,7 +68,8 @@
     private Agendamento agendamento = new();
     private List<Usuario> pacientes = new();
     private List<Usuario> medicos = new();
-    private string mensagem;
+    private string? mensagem;
+    private DateTime dataHoraSelecionada = DateTime.Now;
 
     protected override async Task OnInitializedAsync()
     {
@@ -79,21 +84,30 @@
             .FirstOrDefaultAsync();
 
         medicos = await DbContext.Users
-            .Where(u => DbContext.UserRoles.Any(r => r.UserId == u.Id && r.RoleId == roleMedicoId))
+            .Where(u => DbContext.UserRoles.Any(ur => ur.UserId == u.Id && ur.RoleId == roleMedicoId))
             .ToListAsync();
 
         pacientes = await DbContext.Users
-            .Where(u => DbContext.UserRoles.Any(r => r.UserId == u.Id && r.RoleId == rolePacienteId))
+            .Where(u => DbContext.UserRoles.Any(ur => ur.UserId == u.Id && ur.RoleId == rolePacienteId))
             .ToListAsync();
     }
 
     private async Task SalvarAgendamento()
     {
+        if (string.IsNullOrWhiteSpace(agendamento.IdPaciente) || string.IsNullOrWhiteSpace(agendamento.IdMedico))
+        {
+            mensagem = "Selecione um paciente e um médico válidos.";
+            return;
+        }
+
         agendamento.Id = Guid.NewGuid().ToString();
+        agendamento.DataHora = dataHoraSelecionada;
+
         DbContext.Agendamentos.Add(agendamento);
         await DbContext.SaveChangesAsync();
 
         mensagem = "Consulta agendada com sucesso!";
-        agendamento = new(); // limpa o formulário
+        agendamento = new();
+        dataHoraSelecionada = DateTime.Now;
     }
 }

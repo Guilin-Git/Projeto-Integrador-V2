@@ -66,10 +66,12 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseAntiforgery();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+// ✅ Antiforgery obrigatório com o novo modelo de renderização interativa do .NET 8
+app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();

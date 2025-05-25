@@ -1,11 +1,98 @@
 ﻿@page "/dash-paciente/consultas"
-@inject NavigationManager Navigation
-@inject AuthenticationStateProvider AuthProvider
-@using Microsoft.AspNetCore.Authorization
-@using Microsoft.AspNetCore.Components.Authorization
-@rendermode InteractiveServer
 @attribute [Authorize(Roles = "Paciente")]
+@using ProjetoIntegrador.Models
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.EntityFrameworkCore
+@using ProjetoIntegrador.Data
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Authorization
+
+
+@inject ApplicationDbContext DbContext
+@inject AuthenticationStateProvider AuthProvider
 @inject NavigationManager Navigation
 
-<h1>Consulta</h1>
+<div class="container-lg px-4 py-4">
+    <h2 class="fw-semibold text-center mb-5">
+        <i class="bi bi-journal-medical me-2 text-primary"></i>
+        Minhas Consultas
+    </h2>
 
+    @if (agendamentos is null)
+    {
+        <div class="d-flex justify-content-center py-5">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Carregando…</span>
+            </div>
+        </div>
+    }
+    else if (!agendamentos.Any())
+    {
+        <section class="hero-blank rounded-4 shadow-sm">
+            <p class="fs-4 fw-medium mb-0">
+                Você ainda não possui consultas agendadas.
+            </p>
+        </section>
+    }
+    else
+    {
+        <div class="row g-4">
+            @foreach (var a in agendamentos)
+            {
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card h-100 border-0 shadow rounded-4">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary mb-3">
+                                🩺 Dr(a). @a.Medico?.Nome
+                            </h5>
+
+                            <p class="mb-2">
+                                <i class="bi bi-calendar3 me-2 text-secondary"></i>
+                                <strong>Data:</strong>
+                                @a.DataHora.ToString("dd/MM/yyyy 'às' HH:mm")
+                            </p>
+
+                            <p class="mb-2">
+                                <i class="bi bi-info-circle me-2 text-secondary"></i>
+                                <strong>Status:</strong>
+                                <span class="badge rounded-pill @GetStatusClass(a.Status)">
+                                    @a.Status
+                                </span>
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    private List<Agendamento>? agendamentos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var auth = await AuthProvider.GetAuthenticationStateAsync();
+        var uid = auth.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+        if (uid is null)
+        {
+            Navigation.NavigateTo("/login");
+            return;
+        }
+
+        agendamentos = await DbContext.Agendamentos
+            .Include(a => a.Medico)
+            .Where(a => a.IdPaciente == uid)
+            .OrderByDescending(a => a.DataHora)
+            .ToListAsync();
+    }
+
+    private static string GetStatusClass(string? s) => s?.ToLower() switch
+    {
+        "confirmado" => "bg-success text-white",
+        "cancelado" => "bg-danger text-white",
+        "agendado" => "bg-warning text-dark",
+        _ => "bg-secondary text-white"
+    };
+}
