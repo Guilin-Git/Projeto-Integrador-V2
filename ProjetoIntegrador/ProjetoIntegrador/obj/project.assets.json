@@ -4888,23 +4888,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\barcl\\.nuget\\packages\\": {},
+    "C:\\Users\\guibr\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\barcl\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj",
+      "projectUniqueName": "C:\\Users\\guibr\\OneDrive\\Anexos\\Área de Trabalho\\ProjetoIntegrador\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj",
       "projectName": "ProjetoIntegrador",
-      "projectPath": "C:\\Users\\barcl\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj",
-      "packagesPath": "C:\\Users\\barcl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\barcl\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\obj\\",
+      "projectPath": "C:\\Users\\guibr\\OneDrive\\Anexos\\Área de Trabalho\\ProjetoIntegrador\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\ProjetoIntegrador.csproj",
+      "packagesPath": "C:\\Users\\guibr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\guibr\\OneDrive\\Anexos\\Área de Trabalho\\ProjetoIntegrador\\Projeto-Integrador-V2\\ProjetoIntegrador\\ProjetoIntegrador\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\barcl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\guibr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4913,6 +4913,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4987,7 +4988,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.25057.12/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

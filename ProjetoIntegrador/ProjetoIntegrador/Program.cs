@@ -7,7 +7,6 @@ using ProjetoIntegrador.Components.Pages;
 using ProjetoIntegrador.Data;
 using ProjetoIntegrador.Models;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Blazor Server + erros detalhados para debug
@@ -49,12 +48,12 @@ builder.Services.AddAuthentication();
 builder.Services.AddAuthorization();
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddHttpClient();
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.AccessDeniedPath = "/acesso-negado"; // redireciona automaticamente
+    options.AccessDeniedPath = "/acesso-negado";
 });
-
 
 var app = builder.Build();
 
@@ -75,7 +74,7 @@ app.UseAuthorization();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
-app.MapControllers(); // <- necessário para o AuthController
+app.MapControllers();
 
 // Criação das Roles na inicialização
 using (var scope = app.Services.CreateScope())
