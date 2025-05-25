@@ -1,10 +1,95 @@
 ﻿@page "/dash-medico/agendaConsultas"
-@inject NavigationManager Navigation
-@inject AuthenticationStateProvider AuthProvider
-@using Microsoft.AspNetCore.Authorization
 @using Microsoft.AspNetCore.Components.Authorization
-@rendermode InteractiveServer
-@attribute [Authorize(Roles = "Medico")]
+@using Microsoft.EntityFrameworkCore
+@using ProjetoIntegrador.Data
+@using ProjetoIntegrador.Models
+@using System.Security.Claims
 
+@inject ApplicationDbContext DbContext
+@inject AuthenticationStateProvider AuthProvider
+@inject NavigationManager Navigation
 
-<h3>Sua Agenda</h3>
+<div class="container mt-4">
+    <h3 class="mb-4 text-center">
+        <i class="bi bi-calendar-check-fill text-primary me-2"></i>
+        Minhas Consultas Agendadas
+    </h3>
+
+    @if (agendamentos == null)
+    {
+        <div class="alert alert-info text-center">Carregando agendamentos...</div>
+    }
+    else if (!agendamentos.Any())
+    {
+        <div class="alert alert-warning text-center">Nenhuma consulta agendada.</div>
+    }
+    else
+    {
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            @foreach (var consulta in agendamentos)
+            {
+                <div class="col">
+                    <div class="card h-100 shadow rounded-4 border-0">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-primary mb-3">
+                                👤 @consulta.Paciente?.Nome
+                            </h5>
+
+                            <p class="mb-2">
+                                <i class="bi bi-clock-fill me-2 text-secondary"></i>
+                                <strong>Data:</strong> @consulta.DataHora.ToString("dd/MM/yyyy 'às' HH:mm")
+                            </p>
+
+                            <p class="mb-0">
+                                <i class="bi bi-info-circle-fill me-2 text-secondary"></i>
+                                <strong>Status:</strong>
+                                <span class="badge rounded-pill fw-semibold @GetStatusBadgeClass(consulta.Status)">
+                                    @consulta.Status
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    private List<Agendamento> agendamentos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity is not null && user.Identity.IsAuthenticated)
+        {
+            var medicoId = user.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (!string.IsNullOrEmpty(medicoId))
+            {
+                agendamentos = await DbContext.Agendamentos
+                    .Include(a => a.Paciente)
+                    .Where(a => a.IdMedico == medicoId)
+                    .OrderBy(a => a.DataHora)
+                    .ToListAsync();
+            }
+        }
+        else
+        {
+            Navigation.NavigateTo("/login");
+        }
+    }
+
+    private string GetStatusBadgeClass(string status)
+    {
+        return status?.ToLower() switch
+        {
+            "confirmado" => "bg-success text-white",
+            "cancelado" => "bg-danger text-white",
+            "agendado" => "bg-warning text-dark",
+            _ => "bg-secondary text-white"
+        };
+    }
+}
