@@ -1,5 +1,9 @@
 wwwroot\app.css
 wwwroot\bootstrap\bootstrap.min.css
 wwwroot\bootstrap\bootstrap.min.css.map
+wwwroot\css\login.css
+wwwroot\css\register.css
 wwwroot\favicon.png
+wwwroot\img\vitalic-icon.png
 wwwroot\js\mask.js
+wwwroot\js\toast.js

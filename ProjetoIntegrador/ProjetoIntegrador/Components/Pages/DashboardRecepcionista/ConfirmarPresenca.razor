@@ -1,0 +1,11 @@
+﻿@page "/dash-recepcionista/confirmarPresenca"
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthProvider
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@rendermode InteractiveServer
+@attribute [Authorize(Roles = "Recepcionista")]
+@inject NavigationManager Navigation
+
+<h3>ConfirmarPresenca</h3>
+

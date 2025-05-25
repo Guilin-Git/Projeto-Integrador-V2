@@ -1,0 +1,10 @@
+﻿@page "/dash-medico/agendaConsultas"
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthProvider
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@rendermode InteractiveServer
+@attribute [Authorize(Roles = "Medico")]
+
+
+<h3>Sua Agenda</h3>
