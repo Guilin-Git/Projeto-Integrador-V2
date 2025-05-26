@@ -1,5 +1,5 @@
 ﻿@page "/dash-paciente/consultas"
-@attribute [Authorize(Roles = "Paciente")]
+@attribute [Authorize(Roles = "Paciente,Administrador")]
 @using ProjetoIntegrador.Models
 @using Microsoft.AspNetCore.Components.Authorization
 @using Microsoft.EntityFrameworkCore

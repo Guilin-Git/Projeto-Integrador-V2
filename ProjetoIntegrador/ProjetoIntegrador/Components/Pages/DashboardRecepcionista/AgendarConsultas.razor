@@ -1,5 +1,5 @@
 ﻿@page "/dash-recepcionista/agendarConsultas"
-@attribute [Authorize(Roles = "Recepcionista")]
+@attribute [Authorize(Roles = "Recepcionista,Administrador")]
 
 @inject ApplicationDbContext DbContext
 @inject NavigationManager Navigation
@@ -41,9 +41,14 @@
         </InputSelect>
     </div>
 
+    @code {
+        private string MinAgora => DateTime.Now
+        .ToString("yyyy-MM-ddTHH:mm");
+    }
+
     <div class="mb-3">
         <label class="form-label">Data e Hora</label>
-        <input type="datetime-local" class="form-control" @bind="dataHoraSelecionada" />
+        <input type="datetime-local" class="form-control" @bind="dataHoraSelecionada" min="@MinAgora" />
     </div>
 
     <div class="mb-3">
@@ -97,6 +102,12 @@
         if (string.IsNullOrWhiteSpace(agendamento.IdPaciente) || string.IsNullOrWhiteSpace(agendamento.IdMedico))
         {
             mensagem = "Selecione um paciente e um médico válidos.";
+            return;
+        }
+
+        if (dataHoraSelecionada < DateTime.Now)
+        {
+            mensagem = "Datas passadas não podem ser utilizadas para agendamento.";
             return;
         }
 
