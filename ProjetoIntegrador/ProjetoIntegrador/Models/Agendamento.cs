@@ -16,7 +16,7 @@ namespace ProjetoIntegrador.Models
         public string IdMedico { get; set; }      // Relacionamento com o Médico
 
         public DateTime DataHora { get; set; }  // Data e hora do agendamento da consulta
-        public string Status { get; set; }     // Ex: Agendado, Confirmado, Cancelado
+        public string Status { get; set; }     // Ex: Agendado, Confirmado, Cancelado, Realizado
 
         // Relacionamentos
         public Usuario Paciente { get; set; }

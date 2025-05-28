@@ -53,16 +53,6 @@
                             <input type="datetime-local" class="form-control" @bind="dataHoraSelecionada" min="@MinAgora" />
                         </div>
 
-                        <div class="mb-4">
-                            <label class="form-label fw-semibold">Status</label>
-                            <InputSelect class="form-select" @bind-Value="agendamento.Status">
-                                <option value="">Selecione o status</option>
-                                <option value="Agendado">Agendado</option>
-                                <option value="Confirmado">Confirmado</option>
-                                <option value="Cancelado">Cancelado</option>
-                            </InputSelect>
-                        </div>
-
                         <div class="text-end">
                             <button class="btn btn-success px-4" type="submit">
                                 <i class="bi bi-save me-2"></i>Salvar Consulta
@@ -135,6 +125,7 @@
 
         agendamento.Id = Guid.NewGuid().ToString();
         agendamento.DataHora = dataHoraSelecionada;
+        agendamento.Status = "Agendado"; // Status definido automaticamente
 
         DbContext.Agendamentos.Add(agendamento);
         await DbContext.SaveChangesAsync();
@@ -143,4 +134,5 @@
         agendamento = new();
         dataHoraSelecionada = DateTime.Now;
     }
+
 }
