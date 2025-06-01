@@ -1,14 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using ProjetoIntegrador.Models;  // Ajuste para os modelos do seu projeto
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using ProjetoIntegrador.Models;
 using System.Xml.Linq;
-
-
 
 namespace ProjetoIntegrador.Data
 {
-
     public class ApplicationDbContext : IdentityDbContext<Usuario>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
@@ -19,11 +15,13 @@ namespace ProjetoIntegrador.Data
         public DbSet<Exame> Exames { get; set; }
         public DbSet<Relatorio> Relatorios { get; set; }
 
+        // ✅ Novo DbSet
+        public DbSet<Anamnese> Anamneses { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
-            // Corrige o problema definindo DeleteBehavior.Restrict
             builder.Entity<Agendamento>()
                 .HasOne(a => a.Paciente)
                 .WithMany()
@@ -59,6 +57,14 @@ namespace ProjetoIntegrador.Data
                 .WithMany()
                 .HasForeignKey(r => r.IdMedico)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            // ✅ Relacionamento da Anamnese com a Consulta
+            builder.Entity<Anamnese>()
+                .HasOne(a => a.Agendamento)
+                .WithMany()
+                .HasForeignKey(a => a.IdAgendamento)
+                .OnDelete(DeleteBehavior.Restrict);
+
         }
     }
 }

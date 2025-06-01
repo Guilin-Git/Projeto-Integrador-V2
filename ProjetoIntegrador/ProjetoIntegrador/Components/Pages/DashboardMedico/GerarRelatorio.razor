@@ -55,7 +55,7 @@
 
             <div class="mb-3">
                 <label class="form-label fw-semibold">Prescrição Médica</label>
-                <InputTextArea class="form-control" @bind-Value="relatorio.Medicamentos" rows="3" />
+                <InputTextArea class="form-control" @bind-Value="relatorio.Prescricao" rows="3" />
             </div>
 
             <div class="mb-3">
@@ -84,14 +84,8 @@
     private string? idMedicoLogado;
     private string? mensagem;
 
-    private class RelatorioTemp
-    {
-        public string? Diagnostico { get; set; }
-        public string? Medicamentos { get; set; }
-        public string? Observacoes { get; set; }
-    }
+    private Relatorio relatorio = new();
 
-    private RelatorioTemp relatorio = new();
 
     protected override async Task OnInitializedAsync()
     {
@@ -118,9 +112,21 @@
     {
         if (string.IsNullOrWhiteSpace(consultaSelecionadaId)) return;
 
-        var consulta = await DbContext.Agendamentos.FindAsync(consultaSelecionadaId);
+        var consulta = await DbContext.Agendamentos
+            .Include(a => a.Paciente)
+            .Include(a => a.Medico)
+            .FirstOrDefaultAsync(a => a.Id == consultaSelecionadaId);
 
         if (consulta is null || consulta.Status != "Confirmado") return;
+
+        // Preenche os dados do relatório real
+        relatorio.Id = Guid.NewGuid().ToString();
+        relatorio.IdAgendamento = consulta.Id;
+        relatorio.IdMedico = consulta.IdMedico;
+        relatorio.IdPaciente = consulta.IdPaciente;
+        relatorio.DataGeracao = DateTime.Now;
+
+        DbContext.Relatorios.Add(relatorio);
 
         consulta.Status = "Realizada";
         await DbContext.SaveChangesAsync();
@@ -132,6 +138,7 @@
         await OnInitializedAsync();
         StateHasChanged();
     }
+
 
     private async Task OnConsultaSelecionadaChanged(ChangeEventArgs e)
     {

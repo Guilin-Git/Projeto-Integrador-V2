@@ -21,5 +21,11 @@ namespace ProjetoIntegrador.Models
         // Relacionamentos
         public Usuario Paciente { get; set; }
         public Usuario Medico { get; set; }
+        [NotMapped]
+        public bool TemAnamnese { get; set; }
+
+        [NotMapped]
+        public bool TemRelatorio { get; set; }
+
     }
 }
