@@ -134,14 +134,3 @@ dotnet run --project ProjetoIntegrador/ProjetoIntegrador.csproj
 
 ---
 
-## 👨‍💻 Equipe
-
-- Nome do responsável
-- Nome do orientador
-- Nome dos colaboradores (se houver)
-
----
-
-## 📄 Licença
-
-Esse projeto está licenciado sob a **MIT License** — veja o arquivo [LICENSE](LICENSE) para detalhes.
